@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Generated and recorded audio - large, and recordings contain personal voices
+samples/
+recordings/
+test_*/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.part.wav
+
+# Secrets
+.env
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
